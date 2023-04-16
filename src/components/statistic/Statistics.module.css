@@ -1,0 +1,42 @@
+@import-normalize; 
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.11);
+}
+
+.statList {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    width: calc(100%/5);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.title {
+    text-transform: uppercase;
+    color: rgb(152, 152, 152);
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+.label {
+    font-size: 10px;
+    color: white;
+}
+
+.percentage {
+    color: white;
+}
