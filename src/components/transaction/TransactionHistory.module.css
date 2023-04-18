@@ -1,0 +1,34 @@
+@import-normalize; 
+
+.transactionHistory {
+    border: 2px solid #d5dde9;
+    text-align: center;
+    width: 600px;
+    border-collapse: collapse; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+thead {
+    background-color: rgb(58, 128, 175);
+    color: white;
+}
+
+th {
+    padding: 10px 20px;
+    margin: 0;
+    border: 1px solid #d5dde9;
+}
+
+td {
+    border: 1px solid #d5dde9;
+    padding: 10px 20px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f7faff;
+  }
+  
+tbody tr:nth-child(even) {
+    background-color: #e3eaf5;
+}
